@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Chris\Google Drive\Sync Drive\KiCad\highlander assembly\daughterboard\daughterboard.sch</source>
+    <date>4/26/2019 2:17:45 AM</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>daughterboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>Type-C:HRO-TYPE-C-31-M-12-Assembly</footprint>
+      <libsource lib="Type-C" part="HRO-TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F34B7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F39A7</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F3F4F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDEE30</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PTC</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="keyboard_parts" part="PTC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBDEF9D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F357E</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PRTR5V0U2X</value>
+      <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</datasheet>
+      <libsource lib="Power_Protection" part="PRTR5V0U2X" description="Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC057A0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="PRTR5V0U2X">
+      <description>Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</docs>
+      <footprints>
+        <fp>SOT?143*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="I/O1" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Type-C" part="HRO-TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="PTC">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PTC</field>
+        <field name="Value">PTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Type-C">
+      <uri>C:/Users/Chris/Google Drive/Sync Drive/KiCad/libs/Type-C.pretty/Type-C.lib</uri>
+    </library>
+    <library logical="keyboard_parts">
+      <uri>C:/Users/Chris/Google Drive/Sync Drive/KiCad/libs/kicad_lib_tmk/keyboard_parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="J1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="1"/>
+      <node ref="USB1" pin="13"/>
+      <node ref="USB1" pin="12"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="/d+">
+      <node ref="USB1" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="USB1" pin="8"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="4" name="/d-">
+      <node ref="D1" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="USB1" pin="5"/>
+      <node ref="USB1" pin="7"/>
+    </net>
+    <net code="5" name="/vbus">
+      <node ref="F1" pin="1"/>
+      <node ref="USB1" pin="11"/>
+      <node ref="USB1" pin="2"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="USB1" pin="10"/>
+    </net>
+    <net code="7" name="Net-(USB1-Pad9)">
+      <node ref="USB1" pin="9"/>
+    </net>
+    <net code="8" name="Net-(R1-Pad2)">
+      <node ref="USB1" pin="4"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(USB1-Pad3)">
+      <node ref="USB1" pin="3"/>
+    </net>
+  </nets>
+</export>
