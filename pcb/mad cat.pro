@@ -1,4 +1,4 @@
-update=5/7/2019 1:22:01 AM
+update=5/9/2019 2:51:08 AM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=highlander assembly.net
+LastNetListRead=mad cat.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
