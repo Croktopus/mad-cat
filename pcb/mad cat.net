@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Chris\\Documents\\GitHub\\mad-cat\\pcb\\mad cat.sch")
-    (date "5/9/2019 2:01:38 AM")
+    (date "5/10/2019 12:58:39 AM")
     (tool "Eeschema (5.1.0)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -731,7 +731,7 @@
       (tstamp 5CBC2460))
     (comp (ref SW5,7)
       (value "6 SPACE")
-      (footprint MX_SMK_2:MX_SMK_600)
+      (footprint MX_SMK_2:MX_SMK_600_stabflip)
       (libsource (lib keyboard_parts) (part SW_PUSH) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CBC2467))
@@ -1391,7 +1391,7 @@
       (tstamp 5CDB5B31))
     (comp (ref SW5,7-1)
       (value "6.25 SPACE")
-      (footprint MX_SMK_2:MX_SMK_625_stabflip)
+      (footprint MX_SMK_2:MX_SMK_625)
       (libsource (lib keyboard_parts) (part SW_PUSH) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CE148E3))

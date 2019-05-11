@@ -499,11 +499,11 @@ F 3 "" H 7550 8200 50  0001 C CNN
 	1    7550 8200
 	0    1    1    0   
 $EndComp
-Text Label 5400 7300 2    50   ~ 0
+Text Label 5400 7100 2    50   ~ 0
 c0
 Text Label 5400 7200 2    50   ~ 0
 c1
-Text Label 5400 7100 2    50   ~ 0
+Text Label 5400 7300 2    50   ~ 0
 c2
 Text Label 5400 7900 2    50   ~ 0
 c3
