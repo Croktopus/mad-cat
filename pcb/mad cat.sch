@@ -3262,10 +3262,6 @@ Wire Wire Line
 	12000 2250 11250 2250
 Wire Wire Line
 	400  2750 750  2750
-Connection ~ 750  2750
-Wire Wire Line
-	750  2750 1500 2750
-Connection ~ 1500 2750
 Connection ~ 2250 2750
 Wire Wire Line
 	2250 2750 3000 2750
@@ -3561,8 +3557,6 @@ F 3 "" H 1050 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1350 3950
-Wire Wire Line
-	1350 3950 1350 3550
 Wire Wire Line
 	750  3950 750  4050
 Connection ~ 750  4050
@@ -3911,13 +3905,9 @@ F 3 "" H 8900 9100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 1100 1350 1250
-Wire Wire Line
-	750  1550 750  1250
 Connection ~ 750  1550
 Wire Wire Line
 	950  1250 1350 1250
-Wire Wire Line
-	1350 1250 1350 1550
 Connection ~ 1350 1250
 Wire Wire Line
 	13350 2050 13350 2550
@@ -4134,8 +4124,6 @@ F 3 "" H 1050 3450 60  0000 C CNN
 $EndComp
 Connection ~ 1350 3450
 Wire Wire Line
-	1350 3450 1350 3050
-Wire Wire Line
 	750  3450 750  3550
 Connection ~ 750  3550
 $Comp
@@ -4150,8 +4138,6 @@ F 3 "" H 1050 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1350 2950
-Wire Wire Line
-	1350 2950 1350 2550
 Wire Wire Line
 	750  2950 750  3050
 Connection ~ 750  3050
@@ -4168,8 +4154,6 @@ F 3 "" H 1050 2450 60  0000 C CNN
 $EndComp
 Connection ~ 1350 2450
 Wire Wire Line
-	1350 2450 1350 2050
-Wire Wire Line
 	750  2450 750  2550
 Connection ~ 750  2550
 $Comp
@@ -4184,8 +4168,6 @@ F 3 "" H 1050 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1350 1950
-Wire Wire Line
-	1350 1950 1350 1550
 Wire Wire Line
 	750  1950 750  2050
 Connection ~ 750  2050
@@ -4321,4 +4303,22 @@ Wire Wire Line
 Wire Wire Line
 	12000 3450 12000 3550
 Connection ~ 12000 3550
+Wire Wire Line
+	1350 1550 1350 1950
+Wire Wire Line
+	750  1250 750  1550
+Wire Wire Line
+	1350 1250 1350 1550
+Wire Wire Line
+	1350 3550 1350 3950
+Wire Wire Line
+	1350 3050 1350 3450
+Connection ~ 1500 2750
+Connection ~ 750  2750
+Wire Wire Line
+	750  2750 1500 2750
+Wire Wire Line
+	1350 2550 1350 2950
+Wire Wire Line
+	1350 2050 1350 2450
 $EndSCHEMATC

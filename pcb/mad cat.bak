@@ -3562,7 +3562,7 @@ F 3 "" H 1050 3950 60  0000 C CNN
 $EndComp
 Connection ~ 1350 3950
 Wire Wire Line
-	1350 3950 1350 3550
+	1350 3950 1350 3850
 Wire Wire Line
 	750  3950 750  4050
 Connection ~ 750  4050
@@ -3911,13 +3911,9 @@ F 3 "" H 8900 9100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 1100 1350 1250
-Wire Wire Line
-	750  1550 750  1250
 Connection ~ 750  1550
 Wire Wire Line
 	950  1250 1350 1250
-Wire Wire Line
-	1350 1250 1350 1550
 Connection ~ 1350 1250
 Wire Wire Line
 	13350 2050 13350 2550
@@ -4134,7 +4130,7 @@ F 3 "" H 1050 3450 60  0000 C CNN
 $EndComp
 Connection ~ 1350 3450
 Wire Wire Line
-	1350 3450 1350 3050
+	1350 3450 1350 3350
 Wire Wire Line
 	750  3450 750  3550
 Connection ~ 750  3550
@@ -4151,7 +4147,7 @@ F 3 "" H 1050 2950 60  0000 C CNN
 $EndComp
 Connection ~ 1350 2950
 Wire Wire Line
-	1350 2950 1350 2550
+	1350 2950 1350 2850
 Wire Wire Line
 	750  2950 750  3050
 Connection ~ 750  3050
@@ -4168,7 +4164,7 @@ F 3 "" H 1050 2450 60  0000 C CNN
 $EndComp
 Connection ~ 1350 2450
 Wire Wire Line
-	1350 2450 1350 2050
+	1350 2450 1350 2350
 Wire Wire Line
 	750  2450 750  2550
 Connection ~ 750  2550
@@ -4184,8 +4180,6 @@ F 3 "" H 1050 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1350 1950
-Wire Wire Line
-	1350 1950 1350 1550
 Wire Wire Line
 	750  1950 750  2050
 Connection ~ 750  2050
@@ -4277,10 +4271,10 @@ Wire Wire Line
 Wire Wire Line
 	11250 3750 12000 3750
 $Comp
-L keyboard_parts:D D?
+L keyboard_parts:D D84
 U 1 1 5D00187E
 P 12000 3700
-F 0 "D?" H 12050 3500 60  0000 R CNN
+F 0 "D84" H 12050 3500 60  0000 R CNN
 F 1 "D" V 12150 3650 60  0001 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 12000 3700 60  0001 C CNN
 F 3 "" H 12000 3700 60  0000 C CNN
@@ -4321,4 +4315,78 @@ Wire Wire Line
 Wire Wire Line
 	12000 3450 12000 3550
 Connection ~ 12000 3550
+$Comp
+L keyboard_parts:SW_PUSH SW5,0-2
+U 1 1 5D088A74
+P 1050 3850
+F 0 "SW5,0-2" H 1050 4000 50  0000 C CNN
+F 1 "FN" H 1050 3750 50  0000 C CNN
+F 2 "MX_SMK_2:MX_100" H 1050 3850 60  0001 C CNN
+F 3 "" H 1050 3850 60  0000 C CNN
+	1    1050 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 3850
+Wire Wire Line
+	1350 3850 1350 3550
+Wire Wire Line
+	750  3850 750  3950
+Connection ~ 750  3950
+$Comp
+L keyboard_parts:SW_PUSH SW4,0-2
+U 1 1 5D0A9986
+P 1050 3350
+F 0 "SW4,0-2" H 1050 3500 50  0000 C CNN
+F 1 "PF4" H 1050 3250 50  0000 C CNN
+F 2 "MX_SMK_2:MX_100" H 1050 3350 60  0001 C CNN
+F 3 "" H 1050 3350 60  0000 C CNN
+	1    1050 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 3350
+Wire Wire Line
+	1350 3350 1350 3050
+Wire Wire Line
+	750  3350 750  3450
+Connection ~ 750  3450
+$Comp
+L keyboard_parts:SW_PUSH SW3,0-2
+U 1 1 5D0CB2E3
+P 1050 2850
+F 0 "SW3,0-2" H 1050 3000 50  0000 C CNN
+F 1 "PF3" H 1050 2750 50  0000 C CNN
+F 2 "MX_SMK_2:MX_100" H 1050 2850 60  0001 C CNN
+F 3 "" H 1050 2850 60  0000 C CNN
+	1    1050 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 2850
+Wire Wire Line
+	1350 2850 1350 2550
+Wire Wire Line
+	750  2850 750  2950
+Connection ~ 750  2950
+$Comp
+L keyboard_parts:SW_PUSH SW2,0-2
+U 1 1 5D0ED51B
+P 1050 2350
+F 0 "SW2,0-2" H 1050 2500 50  0000 C CNN
+F 1 "PF2" H 1050 2250 50  0000 C CNN
+F 2 "MX_SMK_2:MX_100" H 1050 2350 60  0001 C CNN
+F 3 "" H 1050 2350 60  0000 C CNN
+	1    1050 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 2350
+Wire Wire Line
+	1350 2350 1350 2050
+Wire Wire Line
+	750  2350 750  2450
+Connection ~ 750  2450
+Wire Wire Line
+	1350 1550 1350 1950
+Wire Wire Line
+	750  1250 750  1550
+Wire Wire Line
+	1350 1250 1350 1550
 $EndSCHEMATC
