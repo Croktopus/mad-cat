@@ -601,7 +601,7 @@ U 1 1 5CA9E2B8
 P 13800 2450
 F 0 "EC2" H 13800 2083 50  0000 C CNN
 F 1 "EC11E" H 13800 2174 50  0000 C CNN
-F 2 "keebs:EC11E" H 13650 2610 50  0001 C CNN
+F 2 "keebs:EC11E_offset" H 13650 2610 50  0001 C CNN
 F 3 "~" H 13800 2710 50  0001 C CNN
 	1    13800 2450
 	-1   0    0    1   
@@ -707,7 +707,7 @@ U 1 1 5CAF89BF
 P 850 950
 F 0 "EC1" V 804 1180 50  0000 L CNN
 F 1 "EC11E" V 895 1180 50  0000 L CNN
-F 2 "keebs:EC11E" H 700 1110 50  0001 C CNN
+F 2 "keebs:EC11E_offset" H 700 1110 50  0001 C CNN
 F 3 "~" H 850 1210 50  0001 C CNN
 	1    850  950 
 	0    1    1    0   
@@ -1922,8 +1922,6 @@ F 3 "" H 6000 4200 60  0000 C CNN
 	1    6000 4200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6600 4050 6600 3950
 Connection ~ 6600 1550
 Connection ~ 6600 2050
 Wire Wire Line
@@ -2441,8 +2439,6 @@ F 3 "" H 8250 4200 60  0000 C CNN
 	1    8250 4200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9600 4050 9600 3950
 Connection ~ 9600 1550
 Wire Wire Line
 	9600 1550 9600 1450
@@ -3537,9 +3533,6 @@ F 3 "" H 6300 3950 60  0000 C CNN
 	1    6300 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 3950
-Wire Wire Line
-	6600 3950 6600 3900
 Wire Wire Line
 	6000 3950 6000 4050
 $Comp
@@ -3687,7 +3680,7 @@ F 1 "CTRL" H 9300 3850 50  0000 C CNN
 F 2 "MX_SMK_2:MX_150" H 9300 3950 60  0001 C CNN
 F 3 "" H 9300 3950 60  0000 C CNN
 	1    9300 3950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:SW_PUSH SW5,12-1
@@ -3766,8 +3759,6 @@ F 3 "" H 2550 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2850 3950
-Wire Wire Line
-	2850 3950 2850 3850
 Wire Wire Line
 	2250 3950 2250 4050
 Connection ~ 2250 4050
@@ -3937,67 +3928,17 @@ F 3 "" H 12300 3000 60  0000 C CNN
 $EndComp
 Connection ~ 12000 3050
 $Comp
-L keyboard_parts:SW_PUSH SW5,11-2
-U 1 1 5CE261EE
-P 9300 3800
-F 0 "SW5,11-2" H 9300 3950 50  0000 C CNN
-F 1 "ALT" H 9300 3700 50  0000 C CNN
-F 2 "MX_SMK_2:MX_150" H 9300 3800 60  0001 C CNN
-F 3 "" H 9300 3800 60  0000 C CNN
-	1    9300 3800
-	-1   0    0    1   
-$EndComp
-$Comp
 L keyboard_parts:SW_PUSH SW5,7-2
 U 1 1 5CE4437C
 P 6300 3850
 F 0 "SW5,7-2" H 6300 4000 50  0000 C CNN
 F 1 "7 SPACE" H 6300 3750 50  0000 C CNN
-F 2 "MX_SMK_2:MX_700_stabflip" H 6300 3850 60  0001 C CNN
+F 2 "MX_SMK_2:MX_100" H 6300 3850 60  0001 C CNN
 F 3 "" H 6300 3850 60  0000 C CNN
 	1    6300 3850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 6600 3850
-Wire Wire Line
-	6600 3850 6600 3550
-Wire Wire Line
-	6000 3850 6000 3900
 Connection ~ 6000 3950
-$Comp
-L keyboard_parts:SW_PUSH SW5,2-2
-U 1 1 5CDD1EA0
-P 2550 3850
-F 0 "SW5,2-2" H 2550 4000 50  0000 C CNN
-F 1 "ALT" H 2550 3750 50  0000 C CNN
-F 2 "MX_SMK_2:MX_150" H 2550 3850 60  0001 C CNN
-F 3 "" H 2550 3850 60  0000 C CNN
-	1    2550 3850
-	-1   0    0    1   
-$EndComp
-Connection ~ 2850 3850
-Wire Wire Line
-	2850 3850 2850 3550
-Wire Wire Line
-	2250 3850 2250 3950
-Connection ~ 2250 3950
-$Comp
-L keyboard_parts:SW_PUSH SW5,7-1
-U 1 1 5CDF148D
-P 6300 3900
-F 0 "SW5,7-1" H 6300 4050 50  0000 C CNN
-F 1 "7 SPACE" H 6300 3800 50  0000 C CNN
-F 2 "MX_SMK_2:MX_700_stabflip" H 6300 3900 60  0001 C CNN
-F 3 "" H 6300 3900 60  0000 C CNN
-	1    6300 3900
-	-1   0    0    1   
-$EndComp
-Connection ~ 6600 3900
-Wire Wire Line
-	6600 3900 6600 3850
-Connection ~ 6000 3900
-Wire Wire Line
-	6000 3900 6000 3950
 $Comp
 L mad-cat-rescue:TC33X-2-103E-dk_Trimmer-Potentiometers POT1
 U 1 1 5CE8AE13
@@ -4451,19 +4392,8 @@ Wire Wire Line
 	8850 4050 8850 3550
 Connection ~ 8850 3550
 Connection ~ 9000 4250
-Connection ~ 9600 3800
-Wire Wire Line
-	9600 3800 9600 3550
-Connection ~ 9600 3950
-Wire Wire Line
-	9600 3950 9600 3800
-Wire Wire Line
-	9000 4250 9750 4250
-Wire Wire Line
-	9000 3800 9000 3950
 Wire Wire Line
 	10350 3550 10350 3950
-Connection ~ 9000 3950
 Wire Wire Line
 	9000 3950 9000 4050
 Connection ~ 9000 4050
@@ -4539,21 +4469,40 @@ F 3 "" H 1050 1950 60  0000 C CNN
 	1    1050 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11250 4250 12000 4250
+Connection ~ 12000 4250
+Wire Wire Line
+	12000 4250 12750 4250
 $Comp
 L keyboard_parts:SW_PUSH SW5,7-3
-U 1 1 5D89B8C2
+U 1 1 5D08BA56
 P 6300 4050
 F 0 "SW5,7-3" H 6300 4200 50  0000 C CNN
 F 1 "6 SPACE" H 6300 3950 50  0000 C CNN
-F 2 "MX_SMK_2:MX_100" H 6300 3950 60  0001 C CNN
+F 2 "MX_SMK_2:MX_600_stabflip" H 6300 4050 60  0001 C CNN
 F 3 "" H 6300 4050 60  0000 C CNN
 	1    6300 4050
 	1    0    0    -1  
 $EndComp
 Connection ~ 6000 4050
 Wire Wire Line
-	11250 4250 12000 4250
-Connection ~ 12000 4250
+	6600 3950 6600 4050
+Connection ~ 6600 3950
 Wire Wire Line
-	12000 4250 12750 4250
+	2850 3550 2850 3950
+Wire Wire Line
+	6000 3850 6000 3950
+Wire Wire Line
+	6600 3550 6600 3850
+Connection ~ 6600 3850
+Wire Wire Line
+	6600 3850 6600 3950
+Wire Wire Line
+	9600 3550 9600 3950
+Connection ~ 9600 3950
+Wire Wire Line
+	9600 3950 9600 4050
+Wire Wire Line
+	9000 4250 9750 4250
 $EndSCHEMATC
