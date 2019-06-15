@@ -4541,4 +4541,16 @@ F 3 "" H 1050 1950 60  0000 C CNN
 	1    1050 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW5,7-3
+U 1 1 5D89B8C2
+P 6300 4050
+F 0 "SW5,7-3" H 6300 4200 50  0000 C CNN
+F 1 "6 SPACE" H 6300 3950 50  0000 C CNN
+F 2 "MX_SMK_2:MX_SMK_600_stabflip" H 6300 4050 60  0000 C CNN
+F 3 "" H 6300 4050 60  0000 C CNN
+	1    6300 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 4050
 $EndSCHEMATC
