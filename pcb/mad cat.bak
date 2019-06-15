@@ -4479,8 +4479,6 @@ Connection ~ 10500 4250
 Wire Wire Line
 	10500 4250 11250 4250
 Connection ~ 11250 4250
-Wire Wire Line
-	11250 4250 12750 4250
 $Comp
 L keyboard_parts:SW_PUSH SW5,15
 U 1 1 5D3AE656
@@ -4553,4 +4551,9 @@ F 3 "" H 6300 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6000 4050
+Wire Wire Line
+	11250 4250 12000 4250
+Connection ~ 12000 4250
+Wire Wire Line
+	12000 4250 12750 4250
 $EndSCHEMATC
