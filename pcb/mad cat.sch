@@ -4539,4 +4539,56 @@ Wire Wire Line
 Wire Wire Line
 	12000 1950 12000 2050
 Connection ~ 12000 2050
+$Comp
+L Device:Rotary_Encoder_Switch EC1-1
+U 1 1 5D1251FB
+P 800 950
+F 0 "EC1-1" V 754 1180 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 845 1180 50  0000 L CNN
+F 2 "keebs:ec11b" H 650 1110 50  0001 C CNN
+F 3 "~" H 800 1210 50  0001 C CNN
+	1    800  950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  1250 950  1250
+Connection ~ 950  1250
+Wire Wire Line
+	700  1250 750  1250
+Connection ~ 750  1250
+Wire Wire Line
+	700  650  750  650 
+Connection ~ 750  650 
+Wire Wire Line
+	800  650  850  650 
+Connection ~ 850  650 
+Wire Wire Line
+	900  650  950  650 
+Connection ~ 950  650 
+$Comp
+L Device:Rotary_Encoder_Switch EC2-1
+U 1 1 5D1CB5B1
+P 13800 2400
+F 0 "EC2-1" H 13800 2033 50  0000 C CNN
+F 1 "EC11E" H 13800 2124 50  0000 C CNN
+F 2 "keebs:ec11b" H 13650 2560 50  0001 C CNN
+F 3 "~" H 13800 2660 50  0001 C CNN
+	1    13800 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13500 2500 13500 2550
+Connection ~ 13500 2550
+Wire Wire Line
+	13500 2300 13500 2350
+Connection ~ 13500 2350
+Wire Wire Line
+	14100 2300 14100 2350
+Connection ~ 14100 2350
+Wire Wire Line
+	14100 2400 14100 2450
+Connection ~ 14100 2450
+Wire Wire Line
+	14100 2500 14100 2550
+Connection ~ 14100 2550
 $EndSCHEMATC

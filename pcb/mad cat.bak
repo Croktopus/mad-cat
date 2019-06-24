@@ -2439,8 +2439,6 @@ F 3 "" H 8250 4200 60  0000 C CNN
 	1    8250 4200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9600 4050 9600 3950
 Connection ~ 9600 1550
 Wire Wire Line
 	9600 1550 9600 1450
@@ -3014,7 +3012,7 @@ Wire Wire Line
 	12600 1550 12600 1100
 Connection ~ 12600 2050
 Wire Wire Line
-	12600 2050 12600 1550
+	12600 2050 12600 1950
 Connection ~ 12600 2550
 Wire Wire Line
 	12600 2550 12600 2050
@@ -3136,7 +3134,7 @@ Wire Wire Line
 	13350 1550 13350 1100
 Connection ~ 13350 2050
 Wire Wire Line
-	13350 2050 13350 1550
+	13350 2050 13350 1950
 Connection ~ 13350 2550
 Connection ~ 13350 3050
 Wire Wire Line
@@ -3682,7 +3680,7 @@ F 1 "CTRL" H 9300 3850 50  0000 C CNN
 F 2 "MX_SMK_2:MX_150" H 9300 3950 60  0001 C CNN
 F 3 "" H 9300 3950 60  0000 C CNN
 	1    9300 3950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:SW_PUSH SW5,12-1
@@ -4394,9 +4392,6 @@ Wire Wire Line
 	8850 4050 8850 3550
 Connection ~ 8850 3550
 Connection ~ 9000 4250
-Connection ~ 9600 3950
-Wire Wire Line
-	9000 4250 9750 4250
 Wire Wire Line
 	10350 3550 10350 3950
 Wire Wire Line
@@ -4505,4 +4500,43 @@ Wire Wire Line
 	6600 3850 6600 3950
 Wire Wire Line
 	9600 3550 9600 3950
+Connection ~ 9600 3950
+Wire Wire Line
+	9600 3950 9600 4050
+Wire Wire Line
+	9000 4250 9750 4250
+$Comp
+L keyboard_parts:SW_PUSH SW1,16-1
+U 1 1 5D092AB2
+P 13050 1950
+F 0 "SW1,16-1" H 13050 2100 50  0000 C CNN
+F 1 "PGUP" H 13050 1850 50  0000 C CNN
+F 2 "MX_SMK_2:MX_100" H 13050 1950 60  0001 C CNN
+F 3 "" H 13050 1950 60  0000 C CNN
+	1    13050 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 13350 1950
+Wire Wire Line
+	13350 1950 13350 1550
+Wire Wire Line
+	12750 1950 12750 2050
+Connection ~ 12750 2050
+$Comp
+L keyboard_parts:SW_PUSH SW1,15-1
+U 1 1 5D0B2107
+P 12300 1950
+F 0 "SW1,15-1" H 12300 2100 50  0000 C CNN
+F 1 "HOME" H 12300 1850 50  0000 C CNN
+F 2 "MX_SMK_2:MX_100" H 12300 1950 60  0001 C CNN
+F 3 "" H 12300 1950 60  0000 C CNN
+	1    12300 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 12600 1950
+Wire Wire Line
+	12600 1950 12600 1550
+Wire Wire Line
+	12000 1950 12000 2050
+Connection ~ 12000 2050
 $EndSCHEMATC
