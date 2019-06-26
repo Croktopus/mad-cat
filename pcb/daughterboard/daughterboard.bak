@@ -157,17 +157,6 @@ F 3 "" H 4750 4700 50  0001 C CNN
 	1    4750 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5CC13C84
-P 3750 5050
-F 0 "#PWR0108" H 3750 4800 50  0001 C CNN
-F 1 "GND" V 3755 4922 50  0000 R CNN
-F 2 "" H 3750 5050 50  0001 C CNN
-F 3 "" H 3750 5050 50  0001 C CNN
-	1    3750 5050
-	1    0    0    -1  
-$EndComp
 Text Label 4400 3650 0    50   ~ 0
 d-
 Text Label 4400 3550 0    50   ~ 0
@@ -249,4 +238,70 @@ Text Label 3850 2600 2    50   ~ 0
 d+
 Text Label 4850 2600 0    50   ~ 0
 d-
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CE8E580
+P 6400 3250
+F 0 "H1" H 6500 3299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6500 3208 50  0000 L CNN
+F 2 "keebs:m2.5_pad_via" H 6400 3250 50  0001 C CNN
+F 3 "~" H 6400 3250 50  0001 C CNN
+	1    6400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5CE8EEC8
+P 6400 3350
+F 0 "#PWR02" H 6400 3100 50  0001 C CNN
+F 1 "GND" V 6405 3222 50  0000 R CNN
+F 2 "" H 6400 3350 50  0001 C CNN
+F 3 "" H 6400 3350 50  0001 C CNN
+	1    6400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5CE90C0E
+P 6400 3800
+F 0 "H2" H 6500 3849 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6500 3758 50  0000 L CNN
+F 2 "keebs:m2.5_pad_via" H 6400 3800 50  0001 C CNN
+F 3 "~" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5CE90C14
+P 6400 3900
+F 0 "#PWR03" H 6400 3650 50  0001 C CNN
+F 1 "GND" V 6405 3772 50  0000 R CNN
+F 2 "" H 6400 3900 50  0001 C CNN
+F 3 "" H 6400 3900 50  0001 C CNN
+	1    6400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5CE917F5
+P 6400 4350
+F 0 "H3" H 6500 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6500 4308 50  0000 L CNN
+F 2 "keebs:m2.5_pad_via" H 6400 4350 50  0001 C CNN
+F 3 "~" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CE917FB
+P 6400 4450
+F 0 "#PWR04" H 6400 4200 50  0001 C CNN
+F 1 "GND" V 6405 4322 50  0000 R CNN
+F 2 "" H 6400 4450 50  0001 C CNN
+F 3 "" H 6400 4450 50  0001 C CNN
+	1    6400 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

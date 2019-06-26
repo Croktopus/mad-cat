@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Chris\Documents\GitHub\mad-cat\pcb\daughterboard\daughterboard.sch)
-    (date "5/24/2019 11:03:15 PM")
+    (date "6/25/2019 8:14:19 AM")
     (tool "Eeschema (5.1.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -48,7 +48,7 @@
       (tstamp 5CBDEF9D))
     (comp (ref J1)
       (value Conn_01x04)
-      (footprint Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal)
+      (footprint Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x04) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
