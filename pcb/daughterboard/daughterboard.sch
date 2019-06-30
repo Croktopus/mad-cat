@@ -130,17 +130,6 @@ F 3 "" H 4800 4500 50  0001 C CNN
 	1    4800 4500
 	0    1    1    0   
 $EndComp
-$Comp
-L keyboard_parts:PTC F1
-U 1 1 5CBDEF9D
-P 4450 4500
-F 0 "F1" H 4450 4815 50  0000 C CNN
-F 1 "PTC" H 4450 4724 50  0000 C CNN
-F 2 "Fuse:Fuse_0805_2012Metric" V 4450 4500 60  0001 C CNN
-F 3 "" V 4450 4500 60  0000 C CNN
-	1    4450 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 4500 4750 4500
 Connection ~ 4750 4500
@@ -302,6 +291,17 @@ F 1 "GND" V 6405 4322 50  0000 R CNN
 F 2 "" H 6400 4450 50  0001 C CNN
 F 3 "" H 6400 4450 50  0001 C CNN
 	1    6400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:PTC F1
+U 1 1 5CBDEF9D
+P 4450 4500
+F 0 "F1" H 4450 4815 50  0000 C CNN
+F 1 "500mA" H 4450 4724 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric" V 4450 4500 60  0001 C CNN
+F 3 "" V 4450 4500 60  0000 C CNN
+	1    4450 4500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
