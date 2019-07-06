@@ -456,7 +456,7 @@ U 1 1 5C139DCB
 P 8750 7000
 F 0 "LED1" H 8800 6900 50  0000 C CNN
 F 1 "3V 5mA" H 8700 7100 50  0000 C CNN
-F 2 "keebs:LED_0805_lightpipe" H 8750 7000 50  0001 C CNN
+F 2 "crokto:LED_0805_lightpipe" H 8750 7000 50  0001 C CNN
 F 3 "~" H 8750 7000 50  0001 C CNN
 	1    8750 7000
 	-1   0    0    1   
@@ -3917,18 +3917,6 @@ F 3 "" H 12300 3000 60  0000 C CNN
 $EndComp
 Connection ~ 12000 3050
 $Comp
-L keyboard_parts:SW_PUSH SW5,7-2
-U 1 1 5CE4437C
-P 6300 3850
-F 0 "SW5,7-2" H 6300 4000 50  0000 C CNN
-F 1 "6U OC" H 6300 3750 50  0000 C CNN
-F 2 "MX_SMK_2:MX_100" H 6300 3850 60  0001 C CNN
-F 3 "" H 6300 3850 60  0000 C CNN
-	1    6300 3850
-	-1   0    0    1   
-$EndComp
-Connection ~ 6000 3950
-$Comp
 L mad-cat-rescue:TC33X-2-103E-dk_Trimmer-Potentiometers POT1
 U 1 1 5CE8AE13
 P 8600 7300
@@ -4464,12 +4452,12 @@ Connection ~ 12000 4250
 Wire Wire Line
 	12000 4250 12750 4250
 $Comp
-L keyboard_parts:SW_PUSH SW5,7-3
+L keyboard_parts:SW_PUSH SW5,7-1
 U 1 1 5D08BA56
 P 6300 4050
-F 0 "SW5,7-3" H 6300 4200 50  0000 C CNN
+F 0 "SW5,7-1" H 6300 4200 50  0000 C CNN
 F 1 "6U" H 6300 3950 50  0000 C CNN
-F 2 "MX_SMK_2:MX_600_stabflip" H 6300 4050 60  0001 C CNN
+F 2 "MX_SMK_2:MX_600_stabflip3" H 6300 4050 60  0001 C CNN
 F 3 "" H 6300 4050 60  0000 C CNN
 	1    6300 4050
 	1    0    0    -1  
@@ -4480,13 +4468,6 @@ Wire Wire Line
 Connection ~ 6600 3950
 Wire Wire Line
 	2850 3550 2850 3950
-Wire Wire Line
-	6000 3850 6000 3950
-Wire Wire Line
-	6600 3550 6600 3850
-Connection ~ 6600 3850
-Wire Wire Line
-	6600 3850 6600 3950
 Wire Wire Line
 	9600 3550 9600 3950
 Connection ~ 9600 3950
@@ -4539,4 +4520,6 @@ F 3 "~" H 13800 2710 50  0001 C CNN
 	1    13800 2450
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6600 3550 6600 3950
 $EndSCHEMATC
