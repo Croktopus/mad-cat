@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mad cat-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr User 14764 9843
 encoding utf-8
@@ -696,7 +696,7 @@ U 1 1 5CAF89BF
 P 850 950
 F 0 "EC1" V 804 1180 50  0000 L CNN
 F 1 "EC11E" V 895 1180 50  0000 L CNN
-F 2 "crokto:EC11E" H 700 1110 50  0001 C CNN
+F 2 "keebs:EC11E" H 700 1110 50  0001 C CNN
 F 3 "~" H 850 1210 50  0001 C CNN
 	1    850  950 
 	0    1    1    0   
@@ -3804,7 +3804,7 @@ U 1 1 5D0E32D1
 P 8600 9000
 F 0 "J2" H 8650 9317 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 8650 9226 50  0000 C CNN
-F 2 "crokto:PinHeader_2x03_P1.27mm_Vertical_center" H 8600 9000 50  0001 C CNN
+F 2 "keebs:PinHeader_2x03_P1.27mm_Vertical_center" H 8600 9000 50  0001 C CNN
 F 3 "~" H 8600 9000 50  0001 C CNN
 	1    8600 9000
 	1    0    0    -1  
@@ -4129,7 +4129,7 @@ U 1 1 5CEC3121
 P 1300 5750
 F 0 "H1" H 1400 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1400 5708 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1300 5750 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1300 5750 50  0001 C CNN
 F 3 "~" H 1300 5750 50  0001 C CNN
 	1    1300 5750
 	1    0    0    -1  
@@ -4151,7 +4151,7 @@ U 1 1 5CEC7481
 P 1500 5750
 F 0 "H3" H 1600 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1600 5708 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1500 5750 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1500 5750 50  0001 C CNN
 F 3 "~" H 1500 5750 50  0001 C CNN
 	1    1500 5750
 	1    0    0    -1  
@@ -4173,7 +4173,7 @@ U 1 1 5CEE69D2
 P 1700 5750
 F 0 "H5" H 1800 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1800 5708 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1700 5750 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1700 5750 50  0001 C CNN
 F 3 "~" H 1700 5750 50  0001 C CNN
 	1    1700 5750
 	1    0    0    -1  
@@ -4195,7 +4195,7 @@ U 1 1 5CF05E57
 P 1900 5750
 F 0 "H7" H 2000 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2000 5708 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1900 5750 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1900 5750 50  0001 C CNN
 F 3 "~" H 1900 5750 50  0001 C CNN
 	1    1900 5750
 	1    0    0    -1  
@@ -4217,7 +4217,7 @@ U 1 1 5CF254C4
 P 1300 6300
 F 0 "H2" H 1400 6349 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1400 6258 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1300 6300 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1300 6300 50  0001 C CNN
 F 3 "~" H 1300 6300 50  0001 C CNN
 	1    1300 6300
 	1    0    0    -1  
@@ -4239,7 +4239,7 @@ U 1 1 5CF44A2D
 P 1500 6300
 F 0 "H4" H 1600 6349 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1600 6258 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1500 6300 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1500 6300 50  0001 C CNN
 F 3 "~" H 1500 6300 50  0001 C CNN
 	1    1500 6300
 	1    0    0    -1  
@@ -4261,7 +4261,7 @@ U 1 1 5CF64138
 P 1700 6300
 F 0 "H6" H 1800 6349 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1800 6258 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1700 6300 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1700 6300 50  0001 C CNN
 F 3 "~" H 1700 6300 50  0001 C CNN
 	1    1700 6300
 	1    0    0    -1  
@@ -4283,7 +4283,7 @@ U 1 1 5CF836A1
 P 1900 6300
 F 0 "H8" H 2000 6349 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2000 6258 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 1900 6300 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 1900 6300 50  0001 C CNN
 F 3 "~" H 1900 6300 50  0001 C CNN
 	1    1900 6300
 	1    0    0    -1  
@@ -4305,7 +4305,7 @@ U 1 1 5CFC6FD9
 P 2100 5750
 F 0 "H9" H 2200 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2200 5708 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 2100 5750 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 2100 5750 50  0001 C CNN
 F 3 "~" H 2100 5750 50  0001 C CNN
 	1    2100 5750
 	1    0    0    -1  
@@ -4327,7 +4327,7 @@ U 1 1 5CFE6828
 P 2100 6300
 F 0 "H10" H 2200 6349 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2200 6258 50  0000 L CNN
-F 2 "crokto:m2.5_pad_via" H 2100 6300 50  0001 C CNN
+F 2 "keebs:m2.5_pad_via" H 2100 6300 50  0001 C CNN
 F 3 "~" H 2100 6300 50  0001 C CNN
 	1    2100 6300
 	1    0    0    -1  
@@ -4457,7 +4457,7 @@ U 1 1 5D08BA56
 P 6300 4050
 F 0 "SW5,7-1" H 6300 4200 50  0000 C CNN
 F 1 "6U" H 6300 3950 50  0000 C CNN
-F 2 "MX_SMK_2:MX_600_stabflip_3" H 6300 4050 60  0001 C CNN
+F 2 "MX_SMK_2:MX_600_stabflip3" H 6300 4050 60  0001 C CNN
 F 3 "" H 6300 4050 60  0000 C CNN
 	1    6300 4050
 	1    0    0    -1  
@@ -4515,7 +4515,7 @@ U 1 1 5CA9E2B8
 P 13800 2450
 F 0 "EC2" H 13800 2083 50  0000 C CNN
 F 1 "EC11E" H 13800 2174 50  0000 C CNN
-F 2 "crokto:EC11E" H 13650 2610 50  0001 C CNN
+F 2 "keebs:EC11E" H 13650 2610 50  0001 C CNN
 F 3 "~" H 13800 2710 50  0001 C CNN
 	1    13800 2450
 	-1   0    0    1   
