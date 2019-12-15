@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:daughterboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -52,7 +52,7 @@ F 3 "" H 3600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:R R1
+L daughterboard-rescue:R-keyboard_parts R1
 U 1 1 5C9F39A7
 P 2950 3350
 F 0 "R1" V 2850 3350 50  0000 C CNN
@@ -81,7 +81,7 @@ Connection ~ 3600 3050
 NoConn ~ 2700 3250
 NoConn ~ 2700 3850
 $Comp
-L keyboard_parts:R R2
+L daughterboard-rescue:R-keyboard_parts R2
 U 1 1 5C9F3F4F
 P 2950 3950
 F 0 "R2" V 2850 3950 50  0000 C CNN
@@ -294,7 +294,7 @@ F 3 "" H 6400 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:PTC F1
+L daughterboard-rescue:PTC-keyboard_parts F1
 U 1 1 5CBDEF9D
 P 4450 4500
 F 0 "F1" H 4450 4815 50  0000 C CNN
@@ -304,4 +304,27 @@ F 3 "" V 4450 4500 60  0000 C CNN
 	1    4450 4500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5DF47513
+P 5550 3550
+F 0 "J2" H 5470 3125 50  0000 C CNN
+F 1 "Conn_01x04" H 5470 3216 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 5550 3550 50  0001 C CNN
+F 3 "~" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3650 5350 3650
+Connection ~ 5000 3650
+Wire Wire Line
+	5000 3550 5350 3550
+Connection ~ 5000 3550
+Wire Wire Line
+	5000 3450 5350 3450
+Connection ~ 5000 3450
+Wire Wire Line
+	5000 3750 5350 3750
+Connection ~ 5000 3750
 $EndSCHEMATC

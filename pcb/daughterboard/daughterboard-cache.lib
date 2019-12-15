@@ -121,11 +121,11 @@ X SBU1 9 100 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_PTC
+# daughterboard-rescue_PTC-keyboard_parts
 #
-DEF keyboard_parts_PTC PTC 0 0 N Y 1 F N
+DEF daughterboard-rescue_PTC-keyboard_parts PTC 0 0 N Y 1 F N
 F0 "PTC" 0 80 50 H V C CNN
-F1 "keyboard_parts_PTC" 0 0 50 H V C CNN
+F1 "daughterboard-rescue_PTC-keyboard_parts" 0 0 50 H V C CNN
 F2 "" 0 0 60 V V C CNN
 F3 "" 0 0 60 V V C CNN
 $FPLIST
@@ -143,11 +143,11 @@ X ~ 2 250 0 100 L 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_R
+# daughterboard-rescue_R-keyboard_parts
 #
-DEF keyboard_parts_R R 0 0 N Y 1 F N
+DEF daughterboard-rescue_R-keyboard_parts R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "keyboard_parts_R" 0 0 50 V V C CNN
+F1 "daughterboard-rescue_R-keyboard_parts" 0 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
