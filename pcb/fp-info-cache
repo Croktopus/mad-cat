@@ -1,4 +1,4 @@
-99192843559116
+107194159487258
 MX_SMK_2
 Choc_Hotswap_100
 Kailh "Choc" PG1350 keyswitch socket mount
@@ -203,6 +203,13 @@ MX_600
 2
 2
 MX_SMK_2
+MX_600_doublestab_3
+
+
+0
+6
+2
+MX_SMK_2
 MX_600_stabflip
 
 
@@ -232,6 +239,13 @@ MX_600_unflipped_3
 2
 MX_SMK_2
 MX_625
+
+
+0
+2
+2
+MX_SMK_2
+MX_625_doublestab
 
 
 0
@@ -278,6 +292,27 @@ MX_700_stabflip_90
 
 0
 2
+2
+MX_SMK_2
+MX_Hotswap_100
+
+
+0
+3
+2
+MX_SMK_2
+MX_Hotswap_150
+
+
+0
+3
+2
+MX_SMK_2
+MX_Hotswap_200_stabflip
+
+
+0
+3
 2
 MX_SMK_2
 MX_ISO
